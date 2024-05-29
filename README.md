@@ -7,3 +7,5 @@ $\ \pi(a_t \mid s_t) = P(a_t \mid s_t; \theta) \$
 where:
 - $\pi(a_t \mid s_t)$ is the policy's probability of taking action $a_t$ (generating the next word or token) given the state $s_t$ (the current sequence of words or tokens).
 - $P(a_t \mid s_t; \theta)$ is the probability of $a_t$ given $s_t$ as modeled by the language model with parameters $\theta$.
+
+$\ \mathcal{L}_{\text{loss}} = -\log(\sigma(\text{rx, yw}) - \text{rx, yl}) \ $
