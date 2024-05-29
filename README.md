@@ -10,4 +10,4 @@ where:
 
 \ \mathcal{L}_{\text{loss}} = -\log(\sigma(\text{rx}_{yw}) - (\text{rx}_{yl}) \
 
-$\ \mathcal{L}_{\text{loss}} = -\log(\sigma(\text{rx, yw}) - \text{rx, yl}) \$
+$\ L_{oss} = -\log(\sigma(r_{x,y_w} - r_{x,y_l})) \$
