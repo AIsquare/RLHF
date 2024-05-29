@@ -9,3 +9,5 @@ where:
 - $P(a_t \mid s_t; \theta)$ is the probability of $a_t$ given $s_t$ as modeled by the language model with parameters $\theta$.
 
 $\ \mathcal{L}_{\text{loss}} = -\log(\sigma(r_{x,y_w}) - r_{x,y_l}) \$
+
+$\ \mathcal{L}_{\text{loss}} = -\log(\sigma(\text{rx, yw}) - \text{rx, yl}) \$
